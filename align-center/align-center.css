@@ -1,0 +1,80 @@
+/*
+* 利用定位
+*/
+/* .parent {
+  width: 800px;
+  height: 600px;
+  border: 5px solid #fcc;
+  position: relative;
+} */
+
+/* .child {
+  width: 200px;
+  height: 200px;
+  border: 3px solid #f00;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+} */
+
+/* .child {
+  width: 200px;
+  height: 200px;
+  border: 3px solid #f00;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -100px 0 0 -100px;
+} */
+
+/* .child {
+  width: 200px;
+  height: 200px;
+  border: 3px solid #f00;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+/*
+*table布局
+*/
+
+/* .parent {
+  width: 800px;
+  height: 600px;
+  border: 5px solid #fcc;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.child {
+  width: 200px;
+  height: 200px;
+  border: 3px solid #f00;
+  display: inline-block;
+} */
+
+/*
+*flex布局, grid布局
+*/
+
+.parent {
+  width: 800px;
+  height: 600px;
+  border: 5px solid #fcc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.child {
+  width: 200px;
+  height: 200px;
+  border: 3px solid #f00;
+}

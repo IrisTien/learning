@@ -1,0 +1,45 @@
+.block {
+  margin: 20px;
+  padding: 20px;
+  width: 38px;
+  height: 38px;
+  background-color: orange;
+  border: 1px solid red;
+}
+
+.wrap {
+  overflow: hidden; /* 触发BFC */
+  /* float: left; */
+  /* display: flex; */
+  /* position: fixed; */
+}
+
+.parent {
+  border: 5px solid #fcc;
+  /* float: left; */
+  overflow: hidden; /* 触发BFC */
+}
+
+.child {
+  margin: 10px;
+  border: 5px solid #f66;
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+.container {
+  width: 900px;
+  .aside {
+    width: 200px;
+    height: 300px;
+    background-color: #fcc;
+    float: left;
+  }
+
+  .main {
+    overflow: hidden; /* 触发BFC */
+    height: 500px;
+    background-color: #f66;
+  }
+}

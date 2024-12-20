@@ -1,0 +1,113 @@
+/* body {
+  display: flex;
+}
+.aside {
+  width: 300px;
+  border: solid 5px #fcc;
+}
+
+.main {
+  flex: 1;
+  border: solid 5px #f66;
+} */
+
+/* .aside {
+  width: 100px;
+  float: left;
+  height: 400px;
+  border: solid 5px #fcc;
+}
+
+.main {
+  margin-left: 110px;
+  margin-right: 110px;
+  height: 200px;
+  border: solid 5px #f66;
+}
+
+.right {
+  width: 100px;
+  float: right;
+  height: 400px;
+  border: solid 5px #ccf;
+} */
+
+/*
+*   table
+*/
+/* body {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.aside {
+  display: table-cell;
+  width: 100px;
+  height: 400px;
+  border: solid 5px #fcc;
+}
+
+.main {
+  display: table-cell;
+  width: 100%;
+  height: 200px;
+  border: solid 5px #f66;
+}
+
+.right {
+  display: table-cell;
+  width: 100px;
+  height: 400px;
+  border: solid 5px #ccf;
+} */
+
+/*
+* flex
+*/
+/* body {
+  display: flex;
+  align-content: stretch;
+}
+
+.aside {
+  width: 100px;
+  height: 400px;
+  border: solid 5px #fcc;
+}
+
+.main {
+  flex: 1;
+  width: 100%;
+  height: 200px;
+  border: solid 5px #f66;
+}
+
+.right {
+  width: 100px;
+  height: 400px;
+  border: solid 5px #ccf;
+} */
+
+/*
+* grid
+*/
+body {
+  display: grid;
+  grid-template-columns: 100px auto 100px;
+}
+
+.aside {
+  height: 400px;
+  border: solid 5px #fcc;
+}
+
+.main {
+  height: 400px;
+  border: solid 5px #f66;
+}
+
+.right {
+  height: 400px;
+  border: solid 5px #ccf;
+}

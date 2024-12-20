@@ -1,0 +1,42 @@
+.triangle {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 50px 50px 0 50px;
+  border-color: red transparent transparent;
+}
+
+.border {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0px 50px 50px 50px;
+  border-color: transparent transparent red transparent;
+  position: relative;
+}
+.border:after{
+  content: '';
+  border-style:solid;
+  border-width: 0 45px 45px;
+  border-color: transparent transparent #96ceb4;
+  position: absolute;
+  top: 3px;
+  left: -45px;
+}
+
+.right-angle {
+  width: 0;
+  height: 0;
+  margin-top: 50px;
+  position: relative;
+
+  &::after {
+    content: '';
+    border-style: solid;
+    border-width: 50px;
+    border-color: red transparent transparent red;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}

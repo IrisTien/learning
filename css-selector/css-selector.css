@@ -1,0 +1,28 @@
+.one {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #fcc;
+}
+.one+.two {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #f00;
+}
+
+.two {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #0ff;
+}
+
+.two[testAttr$="def"] {
+  background-color: orange;
+}
+
+.two[testAttr^="abc"] {
+  background-color: rgb(216, 61, 172);
+}
+
+.two[testAttr*="x"] {
+  width: 300px;
+}
